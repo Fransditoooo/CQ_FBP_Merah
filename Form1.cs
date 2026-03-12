@@ -16,11 +16,11 @@ namespace PraktikumADO
         SqlConnection conn;
         SqlCommand cmd;
 
-        public Form1()
+    public Form1()
         {
             InitializeComponent();
         }
-        
+
         private void Koneksi()
         {
             string connectionString = "Data Source=C:\\KULIAHHH\\Semester 4\\PABD\\Pert 4=PraktikumADO;Integrated Security=True";
